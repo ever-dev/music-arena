@@ -75,3 +75,16 @@
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
 }
+
+.page-wrapper {
+  background-color: #202837;
+  width: 100%;
+  height: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10%;
+
+  color: #ffffff7e;
+}
