@@ -1,8 +1,12 @@
 .input-wrapper {
   padding: 0px;
+  position: relative;
+
   .error-message {
     font-size: 12px;
     color: #b83a54;
+    position: absolute;
+    top: -20px;
   }
   .input {
     border-radius: 5px;
@@ -10,7 +14,7 @@
     --padding-top: 15px;
     --padding-start: 20px;
     --padding-end: 20px;
-    background-color: rgba(166, 166, 166);
+    background-color: #272d3a;
     border: none;
     color: white;
     width: 100%;

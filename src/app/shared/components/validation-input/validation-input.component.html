@@ -1,4 +1,4 @@
 <div class="input-wrapper">
-  <ion-label class="error-message">{{hasError ? errorMessage : ''}}</ion-label>
+  <ion-label class="error-message" *ngIf="hasError">{{errorMessage}}</ion-label>
   <ion-input class="input" [type]="type" [placeholder]='placeholder' (ionChange)="onChange($event)" [ngClass]="{'has-error': hasError}"></ion-input>
 </div>

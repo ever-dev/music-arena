@@ -1,3 +1,33 @@
-<p>
-  sign-in works!
-</p>
+<div class="page-wrapper">
+  <div class="back-btn">
+    <a routerLink="/">
+      <ion-icon name="arrow-back"></ion-icon>
+    </a>
+  </div>
+  <div class="page-container">
+    <div class="header-logo">
+      <ion-avatar>Logo</ion-avatar>
+      <span class="text">Please Sign in</span>
+    </div>
+    <div class="signin-form">
+      <app-validation-input placeholder="Username"></app-validation-input>
+      <app-validation-input type="password" placeholder="Password"></app-validation-input>
+      <a routerLink="/recovery" class="forgot-password">Forgot Password</a>
+    </div>
+    <div class="third-signin">
+      <a>
+        <ion-icon size="large" name="logo-facebook"></ion-icon>
+      </a>
+      <a>
+        <ion-icon size="large" name="logo-twitter"></ion-icon>
+      </a>
+      <a>
+        <ion-icon size="large" name="logo-googleplus"></ion-icon>
+      </a>
+    </div>
+    <app-button class="signin-btn" text="SIGN IN"></app-button>
+    <div class="footer">
+      <span>Don't have an account? <a routerLink="/sign-up">Sign Up</a></span>
+    </div>
+  </div>
+</div>
