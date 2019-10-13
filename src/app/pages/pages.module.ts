@@ -1,3 +1,4 @@
+import { SharedModule } from './../shared/shared.module';
 import { TosComponent } from './tos/tos.component';
 import { PolicyComponent } from './policy/policy.component';
 import { RecoveryComponent } from './recovery/recovery.component';
@@ -20,6 +21,7 @@ import { PagesRoutingModule } from './pages-routing.module';
   ],
   imports: [
     CommonModule,
+    SharedModule,
     PagesRoutingModule
   ]
 })
