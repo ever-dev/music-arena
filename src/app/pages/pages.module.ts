@@ -1,3 +1,4 @@
+import { IonicModule } from '@ionic/angular';
 import { SharedModule } from './../shared/shared.module';
 import { TosComponent } from './tos/tos.component';
 import { PolicyComponent } from './policy/policy.component';
@@ -22,6 +23,7 @@ import { PagesRoutingModule } from './pages-routing.module';
   imports: [
     CommonModule,
     SharedModule,
+    IonicModule,
     PagesRoutingModule
   ]
 })

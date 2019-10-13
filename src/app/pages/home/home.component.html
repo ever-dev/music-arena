@@ -1,4 +1,30 @@
-<p>
-  home works!
-</p>
-<app-validation-input errorMessage="Error" placeholder="placeholder" validationRule="phoneNumber"></app-validation-input>
+<div class="page-wrapper">
+  <div class="welcome-logo">
+    <ion-avatar>Logo</ion-avatar>
+    <span class="text">Welcome to Arena</span>
+  </div>
+  <span class="description">Sit amet, falli semper his no, audiam omittam. Lorem ipsum dolor sit amet, falli semper his no, audiam
+      omittam
+  </span>
+  <div class="buttons">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <app-button link="/sign-in" text="SIGN IN"></app-button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <app-button link="/sign-up" text="SIGN UP"></app-button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <a routerLink="/tos">
+            <h6>Terms of service</h6>
+          </a>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</div>

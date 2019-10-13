@@ -1,3 +1,5 @@
+import { RouterModule } from '@angular/router';
+import { ButtonComponent } from './components/button/button.component';
 import { IonicModule } from '@ionic/angular';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -6,14 +8,17 @@ import { ValidationInputComponent } from './components/validation-input/validati
 
 @NgModule({
   declarations: [
-    ValidationInputComponent
+    ValidationInputComponent,
+    ButtonComponent
   ],
   imports: [
     CommonModule,
-    IonicModule
+    IonicModule,
+    RouterModule
   ],
   exports: [
-    ValidationInputComponent
+    ValidationInputComponent,
+    ButtonComponent
   ]
 })
 export class SharedModule { }
