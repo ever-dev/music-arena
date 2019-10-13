@@ -1,0 +1,39 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  & > * {
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+}
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  & > * {
+    margin-top: 20px;
+  }
+  .name {
+    display:  flex;
+    justify-content: space-between;
+    :first-child {
+      margin-right: 20px;
+    }
+  }
+}
+.third-signup {
+  display: flex;
+  justify-content: space-around;
+  a{
+    color: #fff !important;
+  }
+}
+.signup-btn {
+  padding: 0 20px;
+}
+.footer {
+  text-align: center;
+  a {
+    color: #e23f5d !important;
+  }
+}
