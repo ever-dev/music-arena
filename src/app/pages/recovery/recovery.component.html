@@ -1,3 +1,25 @@
-<p>
-  recovery works!
-</p>
+<div class="page-wrapper">
+    <div class="back-btn">
+      <a routerLink="/">
+        <ion-icon name="arrow-back"></ion-icon>
+      </a>
+    </div>
+    <div class="page-container">
+      <div class="header-logo">
+        <ion-avatar>Logo</ion-avatar>
+        <span class="text">Password Recovery</span>
+      </div>
+      <div class="reset-form">
+        <app-validation-input placeholder="Password" type="password"></app-validation-input>
+        <app-validation-input placeholder="Confirm password" type="password"></app-validation-input>
+      </div>
+      <div class="description">
+        <p>Congratulations, you are verified!</p>
+        <p>Please enter a new password above.</p>
+      </div>
+      <app-button class="send-btn" text="SEND"></app-button>
+      <div class="footer">
+        <span>Don't have an account? <a routerLink="/sign-up">Sign Up</a></span>
+      </div>
+    </div>
+  </div>
